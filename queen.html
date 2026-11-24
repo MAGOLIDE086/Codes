@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>queen's Website
+
+    </title>
+    <style>
+        /* Basic reset and typography */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: 
+            rgb(184, 13, 175)
+            d6f;
+            background-color: #f4f4f9;
+        }
+
+        /* Navigation Menu */
+        header {
+            background: #8a0c7f;
+            color: #fff;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+
+        /* Hero Banner Section */
+        .hero {
+            background: linear-gradient(135deg, #f501cc, #f503f5);
+            color: rgb(51, 6, 32);
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0 0 10px;
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .cta-btn {
+            background: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta-btn:hover {
+            background: #c0392b;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        /* Grid Layout for content blocks */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: rgb(168, 8, 102);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #f503c0;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation Layout -->
+    <header>
+        <nav>
+            <div class="logo">QUEEN</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Showcase Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Your New Website</h1>
+        <p>A clean, modern, and fully responsive layout built with raw HTML and CSS.</p>
+        <a href="#services" class="cta-btn">Get Started</a>
+    </section>
+
+    <!-- Main Features / Services Section -->
+    <main class="container" id="services">
+        <h2>Our Core Features</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>Responsive Design</h3>
+                <p>This layout automatically adapts to fit mobile devices, tablets, and desktop screens perfectly.</p>
+            </div>
+            <div class="card">
+                <h3>Clean Elements</h3>
+                <p>Built using semantic HTML5 code guidelines to ensure great accessibility and search engine indexing.</p>
+            </div>
+            <div class="card">
+                <h3>Easy to Customize</h3>
+                <p>Modify colors, fonts, layout styling, or content fields instantly by editing the core tags.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 MyBrand. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
